@@ -1,0 +1,24 @@
+.addCust-container {
+    /* width: 100%; */
+    height: 400px;
+    padding-left: 90px;
+    padding-right: 74.98px;
+    background: rgba(97, 145, 48, 0.08);
+    border-radius: 8px;
+    border: 1px solid #619130;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .addCust-container{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .addCust-container{
+        width: 100%;
+    }
+}

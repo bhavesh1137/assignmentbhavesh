@@ -1,0 +1,84 @@
+.dataCard-container {
+  width: 380px;
+  padding: 24px;
+  background: rgba(97, 145, 48, 0.08);
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.dataCard-container .data-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dataCard-container .data-tag {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.dataCard-container .data-value {
+  font-size: 16px;
+  color: #888888;
+}
+
+.dataCard-container .fullname-div {
+  display: flex;
+  /* justify-content: space-; */
+}
+
+.menu-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  background: white;
+  border: 1px solid #f0f0f0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.submenu {
+  background: white;
+  position: absolute;
+  bottom: -75px;
+  right: 24px;
+  /* padding: 10px; */
+  width: 200px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+.submenu ul {
+  list-style-type: none;
+}
+
+.submenu .menu-item {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  color: #888888;
+}
+
+.submenu .menu-item:hover {
+  color: black;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width: 850px) {
+    .dataCard-container{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .dataCard-container{
+        width: 100%;
+    }
+}

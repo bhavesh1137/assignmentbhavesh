@@ -1,0 +1,31 @@
+.title-container {
+    width: 100%;
+    padding: 20px 24px;
+}
+
+.title-container .title {
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.title-container .title svg{
+    color: #619130;
+}
+
+.title-container .update-info {
+    font-size: 12px;
+    font-weight: 300;
+    color: #888888;
+}
+
+.data-container {
+    width: 100%;
+    padding: 20px 24px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
